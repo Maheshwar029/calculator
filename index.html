@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Calculator</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+     <header>
+          <nav class="navbar">
+               <div class="heading">
+                    <a href="/">Calculator</a>
+               </div>
+          </nav>
+     </header>
+
+     <main>
+          <div class="calculator">
+               <div class="container">
+                    <div class="display-container">
+                         <div id="display">0</div>
+                    </div>
+                    <div class="buttons">
+                         <button class="button clear">AC</button>
+                         <button class="button backspace"><i class="fas fa-backspace"></i></button>
+                         <button class="button operator" data-value="%"><i class="fa fa-percent"></i></button>
+                         <button class="button operator" data-value="/"><i class="fas fa-divide"></i></button>
+                         <button class="button number">7</button>
+                         <button class="button number">8</button>
+                         <button class="button number">9</button>
+                         <button class="button operator" data-value="*"><i class="fa fa-times"></i></button>
+                         <button class="button number">4</button>
+                         <button class="button number">5</button>
+                         <button class="button number">6</button>
+                         <button class="button operator" data-value="-"><i class="fa fa-minus"></i></button>
+                         <button class="button number">1</button>
+                         <button class="button number">2</button>
+                         <button class="button number">3</button>
+                         <button class="button operator" data-value="+"><i class="fa fa-plus"></i></button>
+                         <button class="button number">0</button>
+                         <button class="button operator" data-value=".">.</button>
+                         <button class="button equal"><i class="fa fa-equals"></i></button>
+
+                    </div>
+               </div>
+          </div>
+     </main>
+     <audio id="click-sound" src="click-345983.mp3" preload="auto"></audio>
+     <script src="script.js"></script>
+</body>
+
+</html>
